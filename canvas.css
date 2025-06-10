@@ -1,0 +1,1553 @@
+
+.hy{
+    display: none;
+    transition: 1s;
+}
+
+.obj2{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: 135px;
+    display: block;
+}
+.obj3{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: -5px;
+    display:block;
+}
+.obj4{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    top: 110px;
+    display:block;
+}
+.obj5{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 125px;
+    display:block;
+}
+.obj6{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: -1px;
+    display:block;
+}
+.obj7{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    display:block;
+}
+.obj8{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 155px;
+    top: 80px;
+    display:block;
+}
+.obj9{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 80px;
+    display:block;
+}
+.obj10{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    display:block;
+}
+.obj11{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    display:block;
+}
+.obj12{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 155px;
+    display:block;
+}
+.obj13{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 174px;
+    display:block;
+}
+.obj14{
+    height: 10px;
+    width: 10px;
+    background-color:  rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 175px;
+    top: 70px;
+    display:block;
+}
+.obj15{
+    height: 10px;
+    width: 10px;
+    background-color:  rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 155px;
+    top: 145px;
+    display:block;
+}
+.obj16{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: -4px;
+    display:block;
+}
+.obj17{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 125px;
+    top: 4px;
+    display:block;
+}
+.obj18{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 100px;
+    display:block;
+}
+.obj19{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 13px;
+    top: 140px;
+    display:block;
+}
+.obj20{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    top: 167px;
+    display:block;
+}
+.obj21{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 65px;
+    top: 174px;
+    display:block;
+}
+.obj22{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 145px;
+    top: 16px;
+    display:block;
+}
+.obj23{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(136, 136, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 85px;
+    top: -7px;
+    display:block;
+}
+.obj24{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(131, 131, 156);
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    top: -1px;
+    display:block;
+}
+.obj25{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(131, 131, 156);
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 40px;
+    display:block;
+}
+.obj26{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(131, 131, 156);
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 50px;
+    display:block;
+}
+.obj27{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(154, 154, 190);
+    border-radius: 50%;
+    position: absolute;
+    left: -1px;
+    top: 60px;
+    display:block;
+}
+.obj28{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(170, 170, 187);
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    display:block;
+}
+.obj29{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(106, 106, 143);
+    border-radius: 50%;
+    position: absolute;
+    left: 28px;
+    top: 170px;
+    display:block;
+}
+.obj30{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(138, 138, 177);
+    border-radius: 50%;
+    position: absolute;
+    left: 187px;
+    top: 136px;
+    display:block;
+}
+.obj31{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(148, 148, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: 18px;
+    display:block;
+}
+.obj32{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(137, 137, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    display:block;
+}
+.obj33{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(108, 108, 151);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    display:block;
+}
+.obj34{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(109, 109, 136);
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: -4px;
+    display:block;
+}
+.obj35{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(128, 128, 163);
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 1px;
+    display:block;
+}
+.obj36{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(122, 122, 163);
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 11px;
+    display:block;
+}
+.obj37{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(111, 111, 161);
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 29px;
+    display:block;
+}
+.obj38{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(108, 108, 165);
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    display:block;
+}
+.obj39{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(118, 118, 153);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 100px;
+    display:block;
+}
+.obj40{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(144, 144, 170);
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 130px;
+    display:block;
+}
+.obj41{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(118, 118, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    top: 140px;
+    display:block;
+}
+.obj42{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(126, 126, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 195px;
+    display:block;
+}
+.obj43{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(182, 182, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: 195px;
+    display:block;
+}
+.obj44{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(152, 152, 216);
+    border-radius: 50%;
+    position: absolute;
+    left: 125px;
+    top: 191px;
+    display:block;
+}
+.obj45{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(119, 119, 161);
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+    top: 186px;
+    display:block;
+}
+.obj46{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(185, 185, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 165px;
+    top: 168px;
+    display:block;
+}
+.obj47{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(158, 158, 199);
+    border-radius: 50%;
+    position: absolute;
+    left: 174px;
+    top: 160px;
+    display:block;
+}
+.obj48{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(171, 171, 192);
+    border-radius: 50%;
+    position: absolute;
+    left: 195px;
+    top: 100px;
+    display:block;
+}
+.obj49{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(164, 164, 180);
+    border-radius: 50%;
+    position: absolute;
+    left: 196px;
+    top: 85px;
+    display:block;
+}
+.obj50{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(169, 169, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 193px;
+    top: 70px;
+    display:block;
+}
+.obj51{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(174, 174, 199);
+    border-radius: 50%;
+    position: absolute;
+    left: 187px;
+    top: 55px;
+    display:block;
+}
+.obj52{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(174, 174, 199);
+    border-radius: 50%;
+    position: absolute;
+    left: 181px;
+    top: 42px;
+    display:block;
+}
+.obj53{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(154, 154, 185);
+    border-radius: 50%;
+    position: absolute;
+    left: 169px;
+    top: 27px;
+    display:block;
+}
+.obj54{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(159, 159, 202);
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: -2px;
+    display:block;
+}
+.obj55{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(166, 166, 190);
+    border-radius: 50%;
+    position: absolute;
+    left: 133px;
+    top: 2px;
+    display:block;
+}
+.obj56{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(192, 192, 207);
+    border-radius: 50%;
+    position: absolute;
+    left: 145px;
+    top: 7px;
+    display:block;
+}
+.obj57{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(160, 160, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: 193px;
+    display:block;
+}
+.obj58{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(164, 164, 185);
+    border-radius: 50%;
+    position: absolute;
+    left: 82px;
+    top: 196px;
+    display:block;
+}
+.obj59{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(182, 182, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    top: 188px;
+    display:block;
+}
+.obj60{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(182, 182, 206);
+    border-radius: 50%;
+    position: absolute;
+    left: 44px;
+    top: 182px;
+    display:block;
+}
+.obj61{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(156, 156, 185);
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 162px;
+    display:block;
+}
+.obj62{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(142, 142, 177);
+    border-radius: 50%;
+    position: absolute;
+    left: -1px;
+    top: 67px;
+    display:block;
+}
+.obj63{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(153, 153, 194);
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 77px;
+    display:block;
+}
+.obj64{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(143, 143, 173);
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 110px;
+    display:block;
+}
+.obj65{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(158, 158, 190);
+    border-radius: 50%;
+    position: absolute;
+    left: 195px;
+    top: 110px;
+    display:block;
+}
+.obj66{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: -5px;
+}
+.obj67{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 121px;
+    top: -4px;
+}
+.obj68{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 132px;
+    top: -3px;
+}  
+.obj69{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 143px;
+    top: 1px;
+}   
+.obj70{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: 215px;
+}      
+.obj71{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 121px;
+    top: 215px;
+}     
+.obj72{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 132px;
+    top: 212px;
+}   
+.obj73{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 215px;
+    top: 110px;
+}   
+.obj74{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: 215px;
+    top: 121px;
+} 
+.obj75{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 110px;
+} 
+.obj76{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(161, 161, 196);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 121px;
+} 
+.obj77{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(196, 196, 211);
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    top: 6px;
+} 
+.obj78{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(196, 196, 211);
+    border-radius: 50%;
+    position: absolute;
+    left: 44px;
+    top: 13px;
+} 
+.obj79{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(196, 196, 211);
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 36px;
+} 
+.obj80{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(196, 196, 211);
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 48px;
+} 
+.obj81{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(179, 179, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 199px;
+    top: 48px;
+} 
+.obj82{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(179, 179, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 192px;
+    top: 38px;
+} 
+.obj83{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(179, 179, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 206px;
+    top: 60px;
+} 
+.obj84{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(175, 175, 189);
+    border-radius: 50%;
+    position: absolute;
+    left: 210px;
+    top: 71px;
+} 
+.obj85{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(175, 175, 202);
+    border-radius: 50%;
+    position: absolute;
+    left: 213px;
+    top: 81px;
+} 
+.obj86{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(176, 176, 206);
+    border-radius: 50%;
+    position: absolute;
+    left: 194px;
+    top: 171px;
+} 
+.obj87{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(174, 174, 209);
+    border-radius: 50%;
+    position: absolute;
+    left: 186px;
+    top: 181px;
+} 
+.obj88{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(186, 186, 209);
+    border-radius: 50%;
+    position: absolute;
+    left: 175px;
+    top: 191px;
+} 
+.obj89{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(176, 176, 201);
+    border-radius: 50%;
+    position: absolute;
+    left: 162px;
+    top: 200px;
+} 
+.obj90{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(195, 195, 219);
+    border-radius: 50%;
+    position: absolute;
+    left: 152px;
+    top: 206px;
+}
+.obj90{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(197, 197, 216);
+    border-radius: 50%;
+    position: absolute;
+    left: 149px;
+    top: 208px;
+}    
+.obj91{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(194, 194, 216);
+    border-radius: 50%;
+    position: absolute;
+    left: 23px;
+    top: 180px;
+} 
+ 
+.obj92{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(182, 182, 204);
+    border-radius: 50%;
+    position: absolute;
+    left: 23px;
+    top: 180px;
+}  
+.obj93{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(177, 177, 192);
+    border-radius: 50%;
+    position: absolute;
+    left: 33px;
+    top: 190px;
+}
+.obj94{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(171, 171, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: 210px;
+}
+.obj95{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(179, 179, 207);
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 206px;
+}
+.obj96{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(199, 199, 221);
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 215px;
+}
+.obj97{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(196, 196, 218);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 216px;
+}
+.obj97{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(156, 156, 190);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 216px;
+}
+.obj98{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(192, 192, 212);
+    border-radius: 50%;
+    position: absolute;
+    left: -3px;
+    top: 130px;
+}
+.obj99{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(175, 175, 197);
+    border-radius: 50%;
+    position: absolute;
+    left: -1px;
+    top: 140px;
+}
+.obj100{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(195, 195, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 150px;
+}
+.obj101{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(186, 186, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    top: 160px;
+}
+.obj102{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(174, 174, 209);
+    border-radius: 50%;
+    position: absolute;
+    left: 14px;
+    top: 170px;
+}
+.obj103{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(184, 184, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 70px;
+}
+.obj104{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(158, 158, 192);
+    border-radius: 50%;
+    position: absolute;
+    left: -3px;
+    top: 80px;
+}
+.obj105{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(180, 180, 206);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 90px;
+}
+.obj106{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(186, 186, 207);
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 100px;
+}
+.obj107{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(187, 187, 214);
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 60px;
+}
+.obj108{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(194, 194, 221);
+    border-radius: 50%;
+    position: absolute;
+    left: 213px;
+    top: 130px;
+}
+.obj109{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(194, 194, 218);
+    border-radius: 50%;
+    position: absolute;
+    left: 211px;
+    top: 140px;
+}
+.obj110{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(183, 183, 216);
+    border-radius: 50%;
+    position: absolute;
+    left: 207px;
+    top: 150px;
+}
+.obj111{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(178, 178, 206);
+    border-radius: 50%;
+    position: absolute;
+    left: 201px;
+    top: 160px;
+}
+.obj112{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(179, 179, 212);
+    border-radius: 50%;
+    position: absolute;
+    left: 162px;
+    top: 10px;
+}
+.obj113{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(193, 193, 219);
+    border-radius: 50%;
+    position: absolute;
+    left: 171px;
+    top: 16px;
+}
+.obj114{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(200, 200, 219);
+    border-radius: 50%;
+    position: absolute;
+    left: 180px;
+    top: 25px;
+}
+.obj115{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(191, 191, 216);
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: -3px;
+}
+.obj116{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(176, 176, 209);
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: -4px;
+}
+.obj117{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(173, 173, 199);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: -5px;
+}
+.obj118{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(168, 168, 202);
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+.obj1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(147, 147, 172);
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: -5px;
+    /*animation: electronAn .1s linear infinite; */
+}
+/*
+@keyframes electronAn{
+    0%{
+        top: -4px;
+    }
+    
+    100%{
+        top: -6px;
+    }
+}
+    */
+.mainbox{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+     
+}
+    
+
+
+.orbit1{
+     height: 140px;
+    width: 140px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate1 7s linear infinite;
+    top: 80px;
+    left: 80px;
+    border: 1px solid white;
+    
+}
+@keyframes animate1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit2{
+    height: 260px;
+    width: 260px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate2 1s linear infinite;
+    top: 20px;
+    left: 20px;
+    border: 1px solid white;
+    
+}
+@keyframes animate2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.orbit3{
+    height: 240px;
+    width: 240px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate3 10s linear infinite;
+    top: 30px;
+    left: 30px;
+    border: 1px solid white;
+    
+}
+@keyframes animate3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit4{
+    height: 220px;
+    width: 220px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate4 22s linear infinite;
+    top: 40px;
+    left: 40px;
+    border: 1px solid white;
+    
+}
+@keyframes animate4 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit5{
+    height: 200px;
+    width: 200px;
+    background-color:  transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate5 20s linear infinite;
+    top: 50px;
+    left: 50px;
+    border: 1px solid white;
+    
+}
+@keyframes animate5 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit6{
+    height: 180px;
+    width: 180px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate6 17s linear infinite;
+    top: 60px;
+    left: 60px;
+    border: 1px solid white;
+    
+}
+@keyframes animate6 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.orbit7{
+    height: 160px;
+    width: 160px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: animate7 14s linear infinite;
+    top: 70px;
+    left: 70px;
+    border: 1px solid white;
+    
+}
+@keyframes animate7 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.text{
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 10px;
+    background: rg;
+    
+}
+.text h1{
+    font-size: 40px;
+    color: rgba(224, 221, 221, 0.658);
+}
+.ringbox{
+    height: 100%;
+    width: 100%;
+    background: rgb(85, 64, 64);
+    position: absolute;
+
+}
+.ringbox .ring1{
+    width: 450px;
+    height: 450px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 209, 216);
+    animation: ringAnimation1 1s linear infinite;
+}
+@keyframes ringAnimation1{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.ringbox .ring2{
+    width: 450px;
+    height: 450px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 209, 216);
+    animation: ringAnimation2 2s linear infinite;
+}        
+@keyframes ringAnimation2{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.ringbox .ring3{
+    width: 450px;
+    height: 450px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 209, 216);
+    animation: ringAnimation3 1s linear infinite;
+}        
+@keyframes ringAnimation3{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.ringbox .ring4{
+    width: 450px;
+    height: 450px;
+    background: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 209, 216);
+    animation: ringAnimation4 2s linear infinite;
+
+}        
+@keyframes ringAnimation4{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.moldetals{
+    background: rgba(214, 112, 17, 0.582);
+    position: relative;
+    height: 120px;
+    width: 120px;
+    text-align: left;
+    left: 30px;
+    top: 10px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+.moldetals .fringmolname{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    color: rgb(5, 238, 160);
+}
+
+.fringmolname,.fringmass, .fringname, .fringelectron{
+    margin: 10px;
+}
+
+.close{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+    animation: clos 2s linear infinite;
+}
+@keyframes clos {
+    0%{
+        border: 0px solid lime;
+    }
+    50%{
+        border: 1px solid red;
+    }
+    100%{
+        border: 1px solid lime;
+    }
+    
+}
+.close .close1{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 4, 4);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+     animation: closeAnimation1 2s linear infinite;
+}
+@keyframes closeAnimation1{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.close .close2{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 4, 4);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+     animation: closeAnimation2 .6s linear infinite;
+}
+@keyframes closeAnimation2{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.close .close1{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 4, 4);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+     animation: closeAnimation1 1s linear infinite;
+}
+@keyframes closeAnimation1{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.close .close3{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 4, 4);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+     animation: closeAnimation3 .4s linear infinite;
+}
+@keyframes closeAnimation3{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.close .close4{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 4, 4);
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+     animation: closeAnimation4 .2s linear infinite;
+}
+@keyframes closeAnimation4{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+
+#hyi{
+    display: none;
+}

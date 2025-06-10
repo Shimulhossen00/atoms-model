@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+table{
+    width: 90%;
+    left: 5%;
+    display: block;
+    position: relative;
+    
+}
+.electron{
+    color: red;
+    
+    
+}
+.molname{
+    color: rgb(196, 192, 255);
+    font-size: 20px;
+}
+.name{
+    color: blueviolet;
+    font-size: 13px;
+}
+.mass{
+    color: rgb(42, 165, 104);
+}
+table div{
+    background: rgb(0, 0, 0);
+    height: 85px;
+    transition: .4;
+    
+}
+.electron, .mass, .molname, .name{
+    margin: 0px;
+    padding: 1px;
+}
+.onlynum{
+    color: red;
+}
+table div:hover{
+    background: rgb(11, 11, 214);
+    
+}
+.head{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: +1;
+    justify-content: space-between;
+    background: red;
+    display: none;
+}
+.head div{
+    display: flex;
+    justify-content: space-around;
+}
+.head .stp p{
+    position: relative;
+    padding: 3px;
+}

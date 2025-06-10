@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="canvas.css">
+</head>
+<body>
+    <div class="head">
+        <div class="stp">
+            <h3>ptable</h3>
+            <p>properties</p>
+            <p>electrons</p>
+            <p>isotopes</p>
+        </div>
+        <div>
+            <button>light</button>
+            <p>wide</p>
+        </div>
+    </div>
+   <table class="table">
+    <thead>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="17">
+                <div onclick="h()">
+                    <p class="electron">1</p>
+                    <p class="molname">H</p>
+                    <p class="name">Hydrogen</p>
+                    <p class="mass">1.008</p>
+                </div>
+            </td>
+           
+            <td >
+                 <div onclick="he()">
+                    <p  class="electron" >2</p>
+                    <p class="molname">He</p>
+                    <p class="name">Helium</p>
+                    <p class="mass">4.0023</p>
+                </div>
+            </td>
+           
+        </tr>
+
+        <tr>
+            <td>
+                <div onclick="Li()">
+                    <p class="electron">3</p>
+                    <p class="molname">Li</p>
+                    <p class="name">Lithium</p>
+                    <p class="mass">6.90</p>
+                </div>
+            </td>
+            <td colspan="11">
+                <div onclick="Be4()">
+                    <p class="electron">4</p>
+                    <p class="molname">Be</p>
+                    <p class="name">Beryllium</p>
+                    <p class="mass">9.0122</p>
+                </div>
+            </td>
+           <td>
+                <div onclick="B5()">
+                    <p class="electron">5</p>
+                    <p class="molname">B</p>
+                    <p class="name">Borone</p>
+                    <p class="mass">10.81</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="C6()">
+                    <p class="electron">6</p>
+                    <p class="molname">C</p>
+                    <p class="name">Carbon</p>
+                    <p class="mass">12.011</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="N7()">
+                    <p class="electron">7</p>
+                    <p class="molname">N</p>
+                    <p class="name">Nitrogen</p>
+                    <p class="mass">14.007</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="O8()">
+                    <p class="electron">8</p>
+                    <p class="molname">O</p>
+                    <p class="name">Oxygen</p>
+                    <p class="mass">15.999</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="F9()">
+                    <p class="electron">9</p>
+                    <p class="molname">F</p>
+                    <p class="name">Fluorine</p>
+                    <p class="mass">18.998</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="Ne10()">
+                    <p class="electron">10</p>
+                    <p class="molname">Ne</p>
+                    <p class="name">Neon</p>
+                    <p class="mass">20.180</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div onclick="Na11()">
+                    <p class="electron">11</p>
+                    <p class="molname">Na</p>
+                    <p class="name">Sodium</p>
+                    <p class="mass">22.990</p>
+                </div>
+            </td>
+            <td colspan="11">
+                <div onclick="Mg12()">
+                    <p class="electron">12</p>
+                    <p class="molname">Mg</p>
+                    <p class="name">Magnesium</p>
+                    <p class="mass">24.305</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="Al13()">
+                    <p class="electron">13</p>
+                    <p class="molname">Al</p>
+                    <p class="name">Aluminium</p>
+                    <p class="mass">26.982</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="Si14()">
+                    <p class="electron">14</p>
+                    <p class="molname">Si</p>
+                    <p class="name">Silicon</p>
+                    <p class="mass">28.085</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="P15()">
+                    <p class="electron">15</p>
+                    <p class="molname">P</p>
+                    <p class="name">Phosphorus</p>
+                    <p class="mass">30.974</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="S16()">
+                    <p class="electron">16</p>
+                    <p class="molname">S</p>
+                    <p class="name">Sulfer</p>
+                    <p class="mass">32.06</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="Cl17()">
+                    <p class="electron">17</p>
+                    <p class="molname">Cl</p>
+                    <p class="name">Chlorine</p>
+                    <p class="mass">35.45</p>
+                </div>
+            </td>
+            <td>
+                <div onclick="Ar18()">
+                    <p class="electron">18</p>
+                    <p class="molname">Ar</p>
+                    <p class="name">Argon</p>
+                    <p class="mass">39.948</p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+             <td>
+                <div onclick="Ka19()">
+                    <p class="electron">19</p>
+                    <p class="molname">Ka</p>
+                    <p class="name">Potassium</p>
+                    <p class="mass">39.098</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ca20()">
+                    <p class="electron">20</p>
+                    <p class="molname">Ca</p>
+                    <p class="name">Calcium</p>
+                    <p class="mass">40.078</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Sc21()">
+                    <p class="electron">21</p>
+                    <p class="molname">Sc</p>
+                    <p class="name">Scandium</p>
+                    <p class="mass">44.956</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ti22()">
+                    <p class="electron">22</p>
+                    <p class="molname">Ti</p>
+                    <p class="name">Titanium</p>
+                    <p class="mass">47.867</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="V23()">
+                    <p class="electron">23</p>
+                    <p class="molname">V</p>
+                    <p class="name">Vabadium</p>
+                    <p class="mass">50.942</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Cr24()">
+                    <p class="electron">24</p>
+                    <p class="molname">Cr</p>
+                    <p class="name">Chromium</p>
+                    <p class="mass">51.996</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Mn25()">
+                    <p class="electron">25</p>
+                    <p class="molname">Mn</p>
+                    <p class="name">Manganese</p>
+                    <p class="mass">54.938</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Fe26()">
+                    <p class="electron">26</p>
+                    <p class="molname">Fe</p>
+                    <p class="name">Iron</p>
+                    <p class="mass">55.845</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Co27()">
+                    <p class="electron">27</p>
+                    <p class="molname">Co</p>
+                    <p class="name">Cobalt</p>
+                    <p class="mass">58.933</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ni28()">
+                    <p class="electron">28</p>
+                    <p class="molname">Ni</p>
+                    <p class="name">Nickel</p>
+                    <p class="mass">58.693</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Cu29()">
+                    <p class="electron">29</p>
+                    <p class="molname">Cu</p>
+                    <p class="name">Cupper</p>
+                    <p class="mass">63.546</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Zn30()">
+                    <p class="electron">30</p>
+                    <p class="molname">Zn</p>
+                    <p class="name">Zinc</p>
+                    <p class="mass">65.38</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ga31()">
+                    <p class="electron">31</p>
+                    <p class="molname">Ga</p>
+                    <p class="name">Gallium</p>
+                    <p class="mass">69.723</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ge32()">
+                    <p class="electron">32</p>
+                    <p class="molname">Ge</p>
+                    <p class="name">Germanium</p>
+                    <p class="mass">72.630</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="As33()">
+                    <p class="electron">33</p>
+                    <p class="molname">As</p>
+                    <p class="name">Arsenic</p>
+                    <p class="mass">74.922</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Se34()">
+                    <p class="electron">34</p>
+                    <p class="molname">Se</p>
+                    <p class="name">Selinium</p>
+                    <p class="mass">78.971</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Br35()">
+                    <p class="electron">35</p>
+                    <p class="molname">Br</p>
+                    <p class="name">Bromine</p>
+                    <p class="mass">79.904</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Kr36()">
+                    <p class="electron">36</p>
+                    <p class="molname">Kr</p>
+                    <p class="name">krypton</p>
+                    <p class="mass">83.798</p>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+             <td>
+                <div onclick="Rb37()">
+                    <p class="electron">37</p>
+                    <p class="molname">Rb</p>
+                    <p class="name">Rubidium</p>
+                    <p class="mass">85.468</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Sr38()">
+                    <p class="electron">38</p>
+                    <p class="molname">Sr</p>
+                    <p class="name">Strontium</p>
+                    <p class="mass">87.62</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Y39()">
+                    <p class="electron">39</p>
+                    <p class="molname">Y</p>
+                    <p class="name">Yttrium</p>
+                    <p class="mass">88.906</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Zr40()">
+                    <p class="electron">40</p>
+                    <p class="molname">Zr</p>
+                    <p class="name">Zirconium</p>
+                    <p class="mass">91.224</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Nb41()">
+                    <p class="electron">41</p>
+                    <p class="molname">Nb</p>
+                    <p class="name">Niobium</p>
+                    <p class="mass">92.906</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Mo42()">
+                    <p class="electron">42</p>
+                    <p class="molname">Mo</p>
+                    <p class="name">Molybdenum</p>
+                    <p class="mass">95.95</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Tc43()">
+                    <p class="electron">43</p>
+                    <p class="molname">Tc</p>
+                    <p class="name">Technetium</p>
+                    <p class="mass">98</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ru44()">
+                    <p class="electron">44</p>
+                    <p class="molname">Ru</p>
+                    <p class="name">Ruthenium</p>
+                    <p class="mass">101.01</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Rh45()">
+                    <p class="electron">45</p>
+                    <p class="molname">Rh</p>
+                    <p class="name">Rhodium</p>
+                    <p class="mass">102.91</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Pd46()">
+                    <p class="electron">46</p>
+                    <p class="molname">Pd</p>
+                    <p class="name">Palladium</p>
+                    <p class="mass">106.42</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ag47()">
+                    <p class="electron">47</p>
+                    <p class="molname">Ag</p>
+                    <p class="name">Silver</p>
+                    <p class="mass">107.87</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Cd48()">
+                    <p class="electron">48</p>
+                    <p class="molname">Cd</p>
+                    <p class="name">Cadmium</p>
+                    <p class="mass">112.41</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="In49()">
+                    <p class="electron">49</p>
+                    <p class="molname">In</p>
+                    <p class="name">Indium</p>
+                    <p class="mass">114.82</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Sn50()">
+                    <p class="electron">50</p>
+                    <p class="molname">Sn</p>
+                    <p class="name">Tin</p>
+                    <p class="mass">118.71</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Sb51()">
+                    <p class="electron">51</p>
+                    <p class="molname">Sb</p>
+                    <p class="name">Antimony</p>
+                    <p class="mass">121.76</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Te52()">
+                    <p class="electron">52</p>
+                    <p class="molname">Te</p>
+                    <p class="name">Tellurium</p>
+                    <p class="mass">127.60</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="I53()">
+                    <p class="electron">53</p>
+                    <p class="molname">I</p>
+                    <p class="name">Iodin</p>
+                    <p class="mass">126.90</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Xe54()">
+                    <p class="electron">54</p>
+                    <p class="molname">Xe</p>
+                    <p class="name">Xenon</p>
+                    <p class="mass">131.29</p>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+             <td>
+                <div oncanplay="Cs55()">
+                    <p class="electron">55</p>
+                    <p class="molname">Cs</p>
+                    <p class="name">Caesium</p>
+                    <p class="mass">132.91</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ba56()">
+                    <p class="electron">56</p>
+                    <p class="molname">Ba</p>
+                    <p class="name">Barium</p>
+                    <p class="mass">137.3</p>
+                </div>
+            </td>
+             <td>
+                <div>
+                    <p class="onlynum">57-71</p>
+                    
+                </div>
+            </td>
+             <td>
+                <div onclick="Hf72()">
+                    <p class="electron">72</p>
+                    <p class="molname">Hf</p>
+                    <p class="name">Hafnium</p>
+                    <p class="mass">178.49</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ta73()">
+                    <p class="electron">73</p>
+                    <p class="molname">Ta</p>
+                    <p class="name">Tantalum</p>
+                    <p class="mass">180.95</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="W74()">
+                    <p class="electron">74</p>
+                    <p class="molname">W</p>
+                    <p class="name">Tungesten</p>
+                    <p class="mass">18.84</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Re75()">
+                    <p class="electron">75</p>
+                    <p class="molname">Re</p>
+                    <p class="name">Rhenium</p>
+                    <p class="mass">186.21</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Os76()">
+                    <p class="electron">76</p>
+                    <p class="molname">Os</p>
+                    <p class="name">Osmium</p>
+                    <p class="mass">190.23</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ir77()">
+                    <p class="electron">77</p>
+                    <p class="molname">Ir</p>
+                    <p class="name">Iridium</p>
+                    <p class="mass">192.22</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Pt78()">
+                    <p class="electron">78</p>
+                    <p class="molname">Pt</p>
+                    <p class="name">Platinum</p>
+                    <p class="mass">195.08</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Au79()">
+                    <p class="electron">79</p>
+                    <p class="molname">Au</p>
+                    <p class="name">Gold</p>
+                    <p class="mass">196.97</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Hg80()">
+                    <p class="electron">80</p>
+                    <p class="molname">Hg</p>
+                    <p class="name">Mercury</p>
+                    <p class="mass">200.59</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ti81()">
+                    <p class="electron">81</p>
+                    <p class="molname">Ti</p>
+                    <p class="name">Thallium</p>
+                    <p class="mass">204.38</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Pb82()">
+                    <p class="electron">82</p>
+                    <p class="molname">Pb</p>
+                    <p class="name">Lead</p>
+                    <p class="mass">207.2</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Bi83()">
+                    <p class="electron">83</p>
+                    <p class="molname">Bi</p>
+                    <p class="name">Bismuth</p>
+                    <p class="mass">208.98</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Po84()">
+                    <p class="electron">84</p>
+                    <p class="molname">Po</p>
+                    <p class="name">Polonium</p>
+                    <p class="mass">209</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="At85()">
+                    <p class="electron">85</p>
+                    <p class="molname">At</p>
+                    <p class="name">Astanine</p>
+                    <p class="mass">210</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Rn86()">
+                    <p class="electron">86</p>
+                    <p class="molname">Rn</p>
+                    <p class="name">Radon</p>
+                    <p class="mass">222</p>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+             <td>
+                <div onclick="Fr87()">
+                    <p class="electron">87</p>
+                    <p class="molname">Fr</p>
+                    <p class="name">Francium</p>
+                    <p class="mass">223</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ra88()">
+                    <p class="electron">88</p>
+                    <p class="molname">Ra</p>
+                    <p class="name">Radium</p>
+                    <p class="mass">226</p>
+                </div>
+            </td>
+             <td>
+                <div>
+                    <p class="onlynum">89-103</p>
+                    
+                </div>
+            </td>
+             <td>
+                <div onclick="Rf104()">
+                    <p class="electron">104</p>
+                    <p class="molname">Rf</p>
+                    <p class="name">Ruthefordium</p>
+                    <p class="mass">267</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Db105()">
+                    <p class="electron">105</p>
+                    <p class="molname">Db</p>
+                    <p class="name">Dubnium</p>
+                    <p class="mass">268</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Sg106()">
+                    <p class="electron">106</p>
+                    <p class="molname">Sg</p>
+                    <p class="name">Seaborgium</p>
+                    <p class="mass">269</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Bh107()">
+                    <p class="electron">107</p>
+                    <p class="molname">Bh</p>
+                    <p class="name">Bohrium</p>
+                    <p class="mass">270</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Hs108()">
+                    <p class="electron">108</p>
+                    <p class="molname">Hs</p>
+                    <p class="name">Hassium</p>
+                    <p class="mass">277</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Mt109()">
+                    <p class="electron">109</p>
+                    <p class="molname">Mt</p>
+                    <p class="name">Meitnerium</p>
+                    <p class="mass">278</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ds110()">
+                    <p class="electron">110</p>
+                    <p class="molname">Ds</p>
+                    <p class="name">Darmstadtium</p>
+                    <p class="mass">281</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Rg111()">
+                    <p class="electron">111</p>
+                    <p class="molname">Rg</p>
+                    <p class="name">Roentgenium</p>
+                    <p class="mass">282</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Cn112()">
+                    <p class="electron">112</p>
+                    <p class="molname">Cn</p>
+                    <p class="name">Copernicium</p>
+                    <p class="mass">285</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Nh113()">
+                    <p class="electron">113</p>
+                    <p class="molname">Nh</p>
+                    <p class="name">Nihonium</p>
+                    <p class="mass">286</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Fi114()">
+                    <p class="electron">114</p>
+                    <p class="molname">Fi</p>
+                    <p class="name">Flerovium</p>
+                    <p class="mass">289</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Mc115()">
+                    <p class="electron">115</p>
+                    <p class="molname">Mc</p>
+                    <p class="name">Moscovium</p>
+                    <p class="mass">290</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Lv116()">
+                    <p class="electron">116</p>
+                    <p class="molname">Lv</p>
+                    <p class="name">Livermorium</p>
+                    <p class="mass">293</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Ts117()">
+                    <p class="electron">117</p>
+                    <p class="molname">TS</p>
+                    <p class="name">Tennessine</p>
+                    <p class="mass">294</p>
+                </div>
+            </td>
+             <td>
+                <div onclick="Os118()">
+                    <p class="electron">118</p>
+                    <p class="molname">Og</p>
+                    <p class="name">Oganesson</p>
+                    <p class="mass">294</p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+   </table>
+
+
+   <div id="hy" class="hy">
+
+
+    
+
+    <div class="ringbox"  >
+        <div class="close" onclick="boxclose()">
+            <div class="close1"></div>
+            <div class="close2"></div>
+            <div class="close3"></div>
+            <div class="close4"></div>
+        </div>
+        <div class="moldetals">
+            <p class="fringelectron">1</p>
+            <p class="fringmolname">H</p>
+            <p class="fringname">Hydrogen</p>
+            <p class="fringmass">1.008</p>
+        </div>
+        <div class="ring1"></div>
+        <div class="ring2"></div>
+        <div class="ring3"></div>
+        <div class="ring4"></div>
+
+
+    </div>
+    <div class="mainbox">
+        
+        <div class="orbit1">
+             <div class="obj1"></div>
+             <div class="obj2" id="obj2"></div>
+        </div>
+        <div class="orbit2">
+           
+            
+        </div>
+         <div class="orbit3">
+            
+            
+        </div>
+      <div class="orbit4">
+            <div class="obj66" id="obj66"></div>
+            <div class="obj67" id="obj67"></div>
+            <div class="obj68" id="obj68"></div>
+            <div class="obj69" id="obj69"></div>
+            <div class="obj70" id="obj70"></div>
+            <div class="obj71" id="obj71"></div>
+            <div class="obj72" id="obj72"></div>
+            <div class="obj73" id="obj73"></div>
+            <div class="obj74" id="obj74"></div>
+            <div class="obj75" id="obj75"></div>
+            <div class="obj76" id="obj76"></div>
+            <div class="obj77" id="obj77"></div>
+            <div class="obj78" id="obj78"></div>
+            <div class="obj79" id="obj79"></div>
+            <div class="obj80" id="obj80"></div>
+            <div class="obj81" id="obj81"></div>
+            <div class="obj82" id="obj82"></div>
+            <div class="obj83" id="obj83"></div>
+            <div class="obj84" id="obj84"></div>
+            <div class="obj85" id="obj85"></div>
+            <div class="obj86" id="obj86"></div>
+            <div class="obj87" id="obj87"></div>
+            <div class="obj88" id="obj88"></div>
+            <div class="obj89" id="obj89"></div>
+            <div class="obj90" id="obj90"></div>
+            <div class="obj91" id="obj91"></div>
+            <div class="obj92" id="obj92"></div>
+            <div class="obj93" id="obj93"></div>
+            <div class="obj94" id="obj94"></div>
+            <div class="obj95" id="obj95"></div>
+            <div class="obj96" id="obj96"></div>
+            <div class="obj97" id="obj97"></div>
+            <div class="obj98" id="obj98"></div>
+            <div class="obj99" id="obj99"></div>
+            <div class="obj100" id="obj100"></div>
+            <div class="obj101" id="obj101"></div>
+            <div class="obj102" id="obj102"></div>
+            <div class="obj103" id="obj103"></div>
+            <div class="obj104" id="obj104"></div>
+            <div class="obj105" id="obj105"></div>
+            <div class="obj106" id="obj106"></div>
+            <div class="obj107" id="obj107"></div>
+            <div class="obj108" id="obj108"></div>
+            <div class="obj109" id="obj109"></div>
+            <div class="obj110" id="obj110"></div>
+            <div class="obj111" id="obj111"></div>
+            <div class="obj112" id="obj112"></div>
+            <div class="obj113" id="obj113"></div>
+            <div class="obj114" id="obj114"></div>
+            <div class="obj115" id="obj115"></div>
+            <div class="obj116" id="obj116"></div>
+            <div class="obj117" id="obj117"></div>
+            <div class="obj118" id="obj118"></div>
+        </div>
+        <div class="orbit5">
+            <div class="obj29" id="obj29"></div>
+            <div class="obj30" id="obj30"></div>
+            <div class="obj31" id="obj31"></div>
+            <div class="obj32" id="obj32"></div>
+            <div class="obj33" id="obj33"></div>
+            <div class="obj34" id="obj34"></div>
+            <div class="obj35" id="obj35"></div>
+            <div class="obj36" id="obj36"></div>
+            <div class="obj37" id="obj37"></div>
+            <div class="obj38" id="obj38"></div>
+            <div class="obj39" id="obj39"></div>
+            <div class="obj40" id="obj40"></div>
+            <div class="obj41" id="obj41"></div>
+            <div class="obj42" id="obj42"></div>
+            <div class="obj43" id="obj43"></div>
+            <div class="obj44" id="obj44"></div>
+            <div class="obj45" id="obj45"></div>
+            <div class="obj46" id="obj46"></div>
+            <div class="obj47" id="obj47"></div>
+            <div class="obj48" id="obj48"></div>
+            <div class="obj49" id="obj49"></div>
+            <div class="obj50" id="obj50"></div>
+            <div class="obj51" id="obj51"></div>
+            <div class="obj52" id="obj52"></div>
+            <div class="obj53" id="obj53"></div>
+            <div class="obj54" id="obj54"></div>
+            <div class="obj55" id="obj55"></div>
+            <div class="obj56" id="obj56"></div>
+            <div class="obj57" id="obj57"></div>
+            <div class="obj58" id="obj58"></div>
+            <div class="obj59" id="obj59"></div>
+            <div class="obj60" id="obj60"></div>
+            <div class="obj61" id="obj61"></div>
+            <div class="obj62" id="obj62"></div>
+            <div class="obj63" id="obj63"></div>
+            <div class="obj64" id="obj64"></div>
+            <div class="obj65" id="obj65"></div>
+        </div>
+        <div class="orbit6">
+            <div class="obj11" id="obj11"></div>
+            <div class="obj12" id="obj12"></div>
+            <div class="obj13" id="obj13"></div>
+            <div class="obj14" id="obj14"></div>
+            <div class="obj15" id="obj15"></div>
+            <div class="obj16" id="obj16"></div>
+            <div class="obj17" id="obj17"></div>
+            <div class="obj18" id="obj18"></div>
+            <div class="obj19" id="obj19"></div>
+            <div class="obj20" id="obj20"></div>
+            <div class="obj21" id="obj21"></div>
+            <div class="obj22" id="obj22"></div>
+            <div class="obj23" id="obj23"></div>
+            <div class="obj24" id="obj24"></div>
+            <div class="obj25" id="obj25"></div>
+            <div class="obj26" id="obj26"></div>
+            <div class="obj27" id="obj27"></div>
+            <div class="obj28" id="obj28"></div>
+            
+        </div>
+        <div class="orbit7">
+            <div class="obj3" id="obj3"></div>
+            <div class="obj4" id="obj4"></div>
+            <div class="obj5" id="obj5"></div>
+            <div class="obj6" id="obj6"></div>
+            <div class="obj7" id="obj7"></div>
+            <div class="obj8" id="obj8"></div>
+            <div class="obj9" id="obj9"></div>
+            <div class="obj10" id="obj10"></div>
+            
+        </div>
+    </div>
+    <div class="text">
+        <h1 class="h1middlename">H</h1>
+    </div>
+  </div>
+
+</div>
+
+<script src="canvas.js"></script>
+</body>
+</html>
